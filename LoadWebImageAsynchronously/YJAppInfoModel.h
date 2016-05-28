@@ -10,8 +10,14 @@
 
 @interface YJAppInfoModel : NSObject
 
+// 按照Json数据中的键值来定义模型属性
+// 名称
 @property (nonatomic, copy) NSString *name;
+
+// 下载
 @property (nonatomic, copy) NSString *download;
+
+// 图像
 @property (nonatomic, copy) NSString *icon;
 
 /*!
