@@ -10,13 +10,13 @@
 
 @interface YJAppInfoCell : UITableViewCell
 
-// 应用图像
+// 应用图像视图
 @property (weak, nonatomic) IBOutlet UIImageView *iconView;
 
 // 应用名称
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
-// 下载数量
+// 下载数量标签
 @property (weak, nonatomic) IBOutlet UILabel *downloadLabel;
 
 @end
